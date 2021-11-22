@@ -22,38 +22,38 @@
   </head>
   <body>
     <!-- Шапка -->
-    <header class="page-header">
-      <div class="container main-nav">
-        <nav class="navigation">
-          <a href="./index.html" class="logo"
-            >Web<span class="header-logo">Studio</span></a
+    <header class="header">
+      <div class="container container__header">
+        <nav class="header__nav">
+          <a href="./index.html" class="header__logo"
+            >Web<span class="header__logo--dark">Studio</span></a
           >
-          <ul class="site-nav">
-            <li class="site-nav-item">
-              <a href="./index.html" class="site-nav-link">Студия</a>
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link">Студия</a>
             </li>
-            <li class="site-nav-item">
-              <a href="./portfolio.html" class="site-nav-link current"
+            <li class="menu__item">
+              <a href="./portfolio.html" class="menu__link menu__link--current"
                 >Портфолио</a
               >
             </li>
-            <li class="site-nav-item">
-              <a href="" class="site-nav-link">Контакты</a>
+            <li class="menu__item">
+              <a href="" class="menu__link">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="header-contacts">
-          <li class="header-contacts-item">
-            <a href="mailto:info@devstudio.com" class="header-contacts-link">
-              <svg class="mail">
+          <li class="header-contacts__item">
+            <a href="mailto:info@devstudio.com" class="header-contacts__link">
+              <svg class="header-contacts__mail">
                 <use href="./img/icon.svg#envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="header-contacts-item">
-            <a href="tel:+380961111111" class="header-contacts-link">
-              <svg class="tel">
+          <li class="header-contacts__item">
+            <a href="tel:+380961111111" class="header-contacts__link">
+              <svg class="header-contacts__tel">
                 <use href="./img/icon.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -66,35 +66,35 @@
       <section class="section">
         <div class="container">
           <h1 class="hidden-title">Портфолио</h1>
-          <ul class="filter-list">
-            <li class="filter-list-item">
-              <button type="button" class="filter-button">Все</button>
+          <ul class="filter">
+            <li class="filter__item">
+              <button type="button" class="filter__button">Все</button>
             </li>
-            <li class="filter-list-item">
-              <button type="button" class="filter-button">Веб-сайты</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Веб-сайты</button>
             </li>
-            <li class="filter-list-item">
-              <button type="button" class="filter-button">Приложения</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Приложения</button>
             </li>
-            <li class="filter-list-item">
-              <button type="button" class="filter-button">Дизайн</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Дизайн</button>
             </li>
-            <li class="filter-list-item">
-              <button type="button" class="filter-button">Маркетинг</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="work-list">
-            <li class="works-item">
-              <a class="works-link" href=""
-                ><div class="works-picture">
+          <ul class="works">
+            <li class="works__item">
+              <a class="works__link" href=""
+                ><div class="works__picture">
                   <img
                     class="img-block"
                     src="./img/portfolio-img/work-1.jpg"
                     width="370"
                     alt="Сайт"
                   />
-                  <div class="works-overlay">
-                    <p class="overlay-text">
+                  <div class="works__overlay">
+                    <p class="works__overlay__text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -102,23 +102,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="works-border">
-                  <h2 class="works-title">Технокряк</h2>
-                  <p class="works-text">Веб-сайт</p>
+                <div class="works__border">
+                  <h2 class="works__title">Технокряк</h2>
+                  <p class="works__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="works-item">
-              <a class="works-link" href=""
-                ><div class="works-picture">
+            <li class="works__item">
+              <a class="works__link" href=""
+                ><div class="works__picture">
                   <img
                     class="img-block"
                     src="./img/portfolio-img/work-2.jpg"
                     width="370"
                     alt="Постер"
                   />
-                  <div class="works-overlay">
-                    <p class="overlay-text">
+                  <div class="works__overlay">
+                    <p class="works__overlay__text">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                       Quia, fugiat dicta consectetur exercitationem, nesciunt
                       quos aliquid vitae officia alias dolores dolorum dolor
@@ -126,25 +126,25 @@
                     </p>
                   </div>
                 </div>
-                <div class="works-border">
-                  <h2 class="works-title">
+                <div class="works__border">
+                  <h2 class="works__title">
                     Постер <span lang="en">New Orlean vs Golden Star</span>
                   </h2>
-                  <p class="works-text">Дизайн</p>
+                  <p class="works__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="works-item">
-              <a class="works-link" href=""
-                ><div class="works-picture">
+            <li class="works__item">
+              <a class="works__link" href=""
+                ><div class="works__picture">
                   <img
                     class="img-block"
                     src="./img/portfolio-img/work-3.jpg"
                     width="370"
                     alt="Логотип ресторана"
                   />
-                  <div class="works-overlay">
-                    <p class="overlay-text">
+                  <div class="works__overlay">
+                    <p class="works__overlay__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Optio fugiat enim illo quasi, sint totam nobis. Asperiores
                       placeat, illum aliquam quidem iste omnis itaque, sequi
@@ -152,25 +152,25 @@
                     </p>
                   </div>
                 </div>
-                <div class="works-border">
-                  <h2 class="works-title">
+                <div class="works__border">
+                  <h2 class="works__title">
                     Ресторан <span lang="en"> Seafood</span>
                   </h2>
-                  <p class="works-text">Приложение</p>
+                  <p class="works__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="works-item">
-              <a class="works-link" href=""
-                ><div class="works-picture">
+            <li class="works__item">
+              <a class="works__link" href=""
+                ><div class="works__picture">
                   <img
                     class="img-block"
                     src="./img/portfolio-img/work-3.jpg"
                     width="370"
                     alt="Логотип ресторана"
                   />
-                  <div class="works-overlay">
-                    <p class="overlay-text">
+                  <div class="works__overlay">
+                    <p class="works__overlay__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Consequatur numquam perspiciatis, mollitia modi doloremque
                       voluptas labore provident porro animi iure hic architecto
@@ -179,25 +179,25 @@
                     </p>
                   </div>
                 </div>
-                <div class="works-border">
-                  <h2 class="works-title">
+                <div class="works__border">
+                  <h2 class="works__title">
                     Проект <span lang="en"> Prime</span>
                   </h2>
-                  <p class="works-text">Маркетинг</p>
+                  <p class="works__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="works-item">
-              <a class="works-link" href=""
-                ><div class="works-picture">
+            <li class="works__item">
+              <a class="works__link" href=""
+                ><div class="works__picture">
                   <img
                     class="img-block"
                     src="./img/portfolio-img/work-5.jpg"
                     width="370"
                     alt="Две коробки"
                   />
-                  <div class="works-overlay">
-                    <p class="overlay-text">
+                  <div class="works__overlay">
+                    <p class="works__overlay__text">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       Placeat modi temporibus deleniti commodi id quis,
                       voluptatibus, ipsam reprehenderit, fugiat in saepe maiores
@@ -205,25 +205,25 @@
                     </p>
                   </div>
                 </div>
-                <div class="works-border">
-                  <h2 class="works-title">
+                <div class="works__border">
+                  <h2 class="works__title">
                     Проект <span lang="en">Boxes</span>
                   </h2>
-                  <p class="works-text">Приложение</p>
+                  <p class="works__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="works-item">
-              <a class="works-link" href=""
-                ><div class="works-picture">
+            <li class="works__item">
+              <a class="works__link" href=""
+                ><div class="works__picture">
                   <img
                     class="img-block"
                     src="./img/portfolio-img/work-6.jpg"
                     width="370"
                     alt="Монитор"
                   />
-                  <div class="works-overlay">
-                    <p class="overlay-text">
+                  <div class="works__overlay">
+                    <p class="works__overlay__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Impedit, hic a. Nulla sapiente quis perspiciatis provident
                       eius alias, repudiandae, unde obcaecati molestiae
@@ -231,25 +231,25 @@
                     </p>
                   </div>
                 </div>
-                <div class="works-border">
-                  <h2 class="works-title" lang="en">
+                <div class="works__border">
+                  <h2 class="works__title" lang="en">
                     Inspiration has no Borders
                   </h2>
-                  <p class="works-text">Веб-сайт</p>
+                  <p class="works__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="works-item">
-              <a class="works-link" href=""
-                ><div class="works-picture">
+            <li class="works__item">
+              <a class="works__link" href=""
+                ><div class="works__picture">
                   <img
                     class="img-block"
                     src="./img/portfolio-img/work-7.jpg"
                     width="370"
                     alt="Журнал"
                   />
-                  <div class="works-overlay">
-                    <p class="overlay-text">
+                  <div class="works__overlay">
+                    <p class="works__overlay__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Assumenda iure at facilis sed suscipit maiores delectus,
                       laudantium quaerat aperiam incidunt sapiente perferendis
@@ -257,25 +257,25 @@
                     </p>
                   </div>
                 </div>
-                <div class="works-border">
-                  <h2 class="works-title">
+                <div class="works__border">
+                  <h2 class="works__title">
                     Издание <span lang="en">Limited Edition</span>
                   </h2>
-                  <p class="works-text">Дизайн</p>
+                  <p class="works__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="works-item">
-              <a class="works-link" href=""
-                ><div class="works-picture">
+            <li class="works__item">
+              <a class="works__link" href=""
+                ><div class="works__picture">
                   <img
                     class="img-block"
                     src="./img/portfolio-img/work-8.jpg"
                     width="370"
                     alt="Бирка"
                   />
-                  <div class="works-overlay">
-                    <p class="overlay-text">
+                  <div class="works__overlay">
+                    <p class="works__overlay__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Perferendis, dolor, nobis, facilis recusandae eaque omnis
                       minus doloribus iure debitis consequuntur iusto magni
@@ -283,25 +283,25 @@
                     </p>
                   </div>
                 </div>
-                <div class="works-border">
-                  <h2 class="works-title">
+                <div class="works__border">
+                  <h2 class="works__title">
                     Проект <span lang="en"></span> LAB
                   </h2>
-                  <p class="works-text">Маркетинг</p>
+                  <p class="works__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="works-item">
-              <a class="works-link" href=""
-                ><div class="works-picture">
+            <li class="works__item">
+              <a class="works__link" href=""
+                ><div class="works__picture">
                   <img
                     class="img-block"
                     src="./img/portfolio-img/work-9.jpg"
                     width="370"
                     alt="Приложение на ноутбуке"
                   />
-                  <div class="works-overlay">
-                    <p class="overlay-text">
+                  <div class="works__overlay">
+                    <p class="works__overlay__text">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       In, assumenda. Cupiditate maxime fugit beatae unde
                       repellendus. Numquam unde aliquam exercitationem
@@ -309,9 +309,9 @@
                     </p>
                   </div>
                 </div>
-                <div class="works-border">
-                  <h2 class="works-title" lang="en">Growing Business</h2>
-                  <p class="works-text">Приложение</p>
+                <div class="works__border">
+                  <h2 class="works__title" lang="en">Growing Business</h2>
+                  <p class="works__text">Приложение</p>
                 </div>
               </a>
             </li>
@@ -321,80 +321,80 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <div>
-          <a class="logo" href="./index.html"
-            >Web<span class="footer-logo">Studio</span></a
+      <div class="container footer__container">
+        <div class="footer-contacts">
+          <a class="footer__logo" href="./index.html"
+            >Web<span class="footer__logo--light">Studio</span></a
           >
           <address class="address">
-            <ul class="footer-list">
-              <li class="footer-item">
+            <ul class="footer__list">
+              <li class="footer__item">
                 <a
-                  class="maps-link"
+                  class="maps__link"
                   href="https://goo.gl/maps/zba6f8VqSRBPZ9pHA"
                   target="_blank"
                   rel="noopener noreferrer"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer-item">
-                <a class="footer-link" href="mailto:info@example.com"
+              <li class="footer__item">
+                <a class="footer__link" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
-              <li class="footer-item">
-                <a class="footer-link" href="tel:+380991111111"
+              <li class="footer__item">
+                <a class="footer__link" href="tel:+380991111111"
                   >+38 099 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-social">
-          <h3 class="footer-title">присоединяйтесь</h3>
-          <ul class="social-list">
-            <li class="social-item">
-              <a class="icon-social-link" href="">
-                <svg class="icon-social">
+        <div class="footer__social">
+          <h3 class="footer__title">присоединяйтесь</h3>
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link" href="">
+                <svg class="social__icon">
                   <use href="./img/icon.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="icon-social-link" href="">
-                <svg class="icon-social">
+            <li class="social__item">
+              <a class="social__link" href="">
+                <svg class="social__icon">
                   <use href="./img/icon.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="icon-social-link" href="">
-                <svg class="icon-social">
+            <li class="social__item">
+              <a class="social__link" href="">
+                <svg class="social__icon">
                   <use href="./img/icon.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="icon-social-link" href="">
-                <svg class="icon-social">
+            <li class="social__item">
+              <a class="social__link" href="">
+                <svg class="social__icon">
                   <use href="./img/icon.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <form class="subscribe-form">
-          <h3 class="footer-title">Подпишитесь на рассылку</h3>
+        <form class="subscribe">
+          <h3 class="footer__title">Подпишитесь на рассылку</h3>
           <div>
             <label>
               <input
                 type="email"
                 name="email"
-                class="subscribe-field"
+                class="subscribe__field"
                 placeholder="E-mail"
               />
             </label>
-            <button type="submit" class="subscribe-button">
+            <button type="submit" class="subscribe__button">
               Подписаться
               <svg class="icon-send">
                 <use href="./img/icon.svg#send"></use>
