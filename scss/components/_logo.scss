@@ -1,0 +1,29 @@
+.header__logo {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+
+  color: var(--accent);
+
+  font-family: raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.header__logo--dark {
+  color: var(--logo-color);
+}
+.footer__logo {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 0px;
+  display: block;
+  margin-bottom: 20px;
+  color: var(--accent);
+  font-family: raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer__logo--light {
+  color: var(--primary-bg-color);
+}
