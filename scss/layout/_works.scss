@@ -32,16 +32,13 @@
 
   color: var(--primary-text-color);
 
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+  @include font(18px, 700, 36px);
   letter-spacing: 0.06em;
 }
 .works__text {
   color: var(--secondary-text-color);
 
-  font-size: 16px;
-  line-height: 1.87;
+  @include font(16px, 400, 30px);
   letter-spacing: 0.03em;
 }
 
@@ -74,8 +71,8 @@
 }
 
 .works__overlay__text {
-  font-size: 18px;
-  line-height: 1.56;
+  @include font(18px, 400, 28px);
+
   color: var(--primary-bg-color);
   padding: 0 24px;
 }

@@ -37,14 +37,11 @@
 }
 .address {
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(14px, 400, 24px);
 }
 .footer__title {
+  @include font(14px, 700, 16px);
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
 
   text-transform: uppercase;
 

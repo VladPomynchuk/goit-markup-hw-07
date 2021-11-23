@@ -7,8 +7,9 @@
   color: var(--accent);
 
   font-family: raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
+  @include font(26px, 700, 31px);
+  // font-size: 26px;
+  // line-height: 1.19;
 }
 .header__logo--dark {
   color: var(--logo-color);
