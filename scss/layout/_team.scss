@@ -1,12 +1,9 @@
 .team {
-  background-color: var(--secondary-bg-color);
-}
-.team__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.team__list__item {
+.team__item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
 
@@ -16,21 +13,21 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team__list__item:nth-child(4n) {
+.team__item:nth-child(4n) {
   margin-right: 0;
 }
 
-.team__list__border {
+.team__border {
   padding: 30px 0px;
 }
 
-.team__list__title {
+.team__title {
   margin-bottom: 10px;
 
   @include font(16px, 500, 19px);
   text-align: center;
 }
-.team__list__text {
+.team__text {
   margin-bottom: 16px;
   color: var(--secondary-text-color);
 

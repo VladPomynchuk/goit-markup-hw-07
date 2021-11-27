@@ -49,7 +49,7 @@
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
-.works__picture {
+.works__box {
   position: relative;
   overflow: hidden;
 }
@@ -70,7 +70,7 @@
   }
 }
 
-.works__overlay__text {
+.works__overlay-text {
   @include font(18px, 400, 28px);
 
   color: var(--primary-bg-color);
